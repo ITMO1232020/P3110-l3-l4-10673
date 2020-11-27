@@ -22,7 +22,7 @@ public class Bridge extends Building implements Describable, Nameable {
 
     @Override
     public String describe() {
-        return subjectType.getTranslate() + " " + name + " располагался бы в " + marginBottom + " футах над " + LocationPart.ICECOVER.getTranslate();
+        return subjectType.getTranslate() + " " + name + " располагался бы в " + marginBottom + " футах над " + LocationPart.ICE_COVER.getTranslate();
     }
 
     @Override

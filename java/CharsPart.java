@@ -1,12 +1,12 @@
 public enum CharsPart {
-    CARDIOVASCULARSYSTEM("сердечно-сосудистая система"),
+    CARDIO_VASCULAR_SYSTEM("сердечно-сосудистая система"),
     ROPE("Верёвка"),
     LIGHTS("наши электрические фонарики"),
     NERVES(" нервы наши"),
     IMAGINATION("Воображение"),
     INTEREST("Интерес первооткрывателей и учёных"),
-    SELFCONTROL("самообладание.");
-
+    SELF_CONTROL("самообладание."),
+    COMPASS("по компасу");
 
     private final String TRANSLATE;
 
